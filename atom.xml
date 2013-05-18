@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[EastSea's Blog]]></title>
+  <link href="http://eastsea001.github.io/atom.xml" rel="self"/>
+  <link href="http://eastsea001.github.io/"/>
+  <updated>2013-05-18T22:58:16+08:00</updated>
+  <id>http://eastsea001.github.io/</id>
+  <author>
+    <name><![CDATA[东海]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ubuntu开机启动项删除]]></title>
+    <link href="http://eastsea001.github.io/blog/2013/04/27/title/"/>
+    <updated>2013-04-27T22:30:00+08:00</updated>
+    <id>http://eastsea001.github.io/blog/2013/04/27/title</id>
+    <content type="html"><![CDATA[<p>这个问题是当时把ubuntu的硬盘格式化后还存在ubuntu的开机启动项
+首先打开命令窗口并且输入指令 &#8220;bcdedit&#8221;</p>
+
+<p><img src="http://eastsea001.github.io/pic/2013-05-18/2013-05-18-1.jpg" alt="Alt text" /></p>
+
+<p>找到ubuntu系统的标示符序列号 输入指令 “bcdedit /delete 标示符”即可删除ubuntu的开机启动项</p>
+
+<p><img src="http://eastsea001.github.io/pic/2013-05-18/2013-05-18-2.jpg" alt="Alt text" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Blog of EastSea]]></title>
+    <link href="http://eastsea001.github.io/blog/2013/04/23/first-blog-of-eastsea/"/>
+    <updated>2013-04-23T16:49:00+08:00</updated>
+    <id>http://eastsea001.github.io/blog/2013/04/23/first-blog-of-eastsea</id>
+    <content type="html"><![CDATA[<p>看费爷的教程搭的博客，欢迎来喷！！！！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[显示代码高亮]]></title>
+    <link href="http://eastsea001.github.io/blog/2013/04/23/title/"/>
+    <updated>2013-04-23T16:48:00+08:00</updated>
+    <id>http://eastsea001.github.io/blog/2013/04/23/title</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span> <span class="n">args</span><span class="o">[])</span> <span class="o">{</span>
+</span><span class='line'>      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='cpp'><span class='line'><span class="k">public</span> <span class="k">class</span> <span class="nc">HelloWorld</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">public</span> <span class="k">static</span> <span class="kt">void</span> <span class="n">main</span><span class="p">(</span><span class="n">String</span> <span class="n">args</span><span class="p">[])</span> <span class="p">{</span>
+</span><span class='line'>      <span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">cin</span>
+</span><span class='line'>    <span class="n">cout</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+</feed>
